@@ -9,10 +9,10 @@ var plumber = require("gulp-plumber");
 gulp.task("server", function() {
     browser({
         server: {
-            baseDir: "./docs",
+            baseDir: "./",
             startPath: '/4919/',
             routes : {
-                '/4919': 'docs'
+                '/4919': './'
             }
         }
     });
@@ -23,7 +23,7 @@ gulp.task("ejs", function() {
     gulp.src(["./source/html/**/*.ejs", "!./source/html/template/*.ejs"], { base: "./source/html" })
         .pipe(plumber())
         .pipe(ejs(json, {"ext": ".html"}))
-        .pipe(gulp.dest("./docs"))
+        .pipe(gulp.dest("./"))
         .pipe(browser.reload({stream:true}));
 });
  
@@ -31,7 +31,7 @@ gulp.task("sass", function() {
     gulp.src("./source/sass/**/*scss")
         .pipe(plumber())
         .pipe(sass())
-        .pipe(gulp.dest("./docs/css"))
+        .pipe(gulp.dest("./css"))
         .pipe(browser.reload({stream:true}));
 });
 
@@ -39,7 +39,7 @@ gulp.task("js", function() {
     gulp.src(["./source/js/**/*.js"])
         .pipe(plumber())
         .pipe(uglify())
-        .pipe(gulp.dest("./docs/js"))
+        .pipe(gulp.dest("./js"))
         .pipe(browser.reload({stream:true}));
 });
 
