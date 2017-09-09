@@ -280,13 +280,16 @@ div.main {
         width: 50%;
         margin: 0 0 20px 5%;
         text-align: center;
-        img.android-ss {
-          width: 48%;
-          float: left;
+        img {
+          width: 44%;
+          padding: 20px 2% 0;
         }
-        img.iPhone-ss {
-          width: 48%;
-          float: right;
+        @media screen and (max-width: 640px)  {
+          float: none;
+          width: 80vw;
+          img {
+            float: none;
+          }
         }
       }
       div.top-download-link {

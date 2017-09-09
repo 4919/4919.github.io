@@ -212,12 +212,15 @@ div.main {
     width: 50%;
     margin: 0 0 20px 5%;
     text-align: center; }
-    div.main div.contents.top-page div.app-ss img.android-ss {
-      width: 48%;
-      float: left; }
-    div.main div.contents.top-page div.app-ss img.iPhone-ss {
-      width: 48%;
-      float: right; }
+    div.main div.contents.top-page div.app-ss img {
+      width: 44%;
+      padding: 20px 2% 0; }
+    @media screen and (max-width: 640px) {
+      div.main div.contents.top-page div.app-ss {
+        float: none;
+        width: 80vw; }
+        div.main div.contents.top-page div.app-ss img {
+          float: none; } }
   div.main div.contents.top-page div.top-download-link {
     position: absolute;
     width: 80vw;
