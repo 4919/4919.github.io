@@ -18,7 +18,9 @@ html {
   width: 100%;
   font-size: 1.1em;
   background: white;
-  font-family: "tk-tbchibirgothicplusk-pro", serif; }
+  font-family: "tbchibirgothicplusk-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400; }
 
 a {
   text-decoration: none;
@@ -135,20 +137,6 @@ div.main {
         div.main div.contents section.content ul li ul {
           list-style: circle;
           padding: 8px 0; }
-      div.main div.contents section.content ul.member {
-        list-style: none; }
-        div.main div.contents section.content ul.member li {
-          margin: 0 0 30px;
-          width: auto;
-          min-height: 200px; }
-          div.main div.contents section.content ul.member li img {
-            float: left;
-            width: 200px;
-            border-radius: 4px;
-            margin: 0 30px 10px 0; }
-          div.main div.contents section.content ul.member li p.bio {
-            margin: 15px 0;
-            font-size: 0.8em; }
     div.main div.contents section.content div.content-wrap {
       display: block;
       width: auto;
@@ -159,6 +147,9 @@ div.main {
       height: 100vh;
       margin: 0 0 30px;
       background: #FFF247 url("../img/logo_4919_top.png") center center no-repeat; }
+      @media screen and (max-width: 640px) {
+        div.main div.contents section.content.top-visual {
+          background-size: 50% auto; } }
     div.main div.contents section.content.sub-page-top-visual {
       margin: 0 0 60px;
       padding: 130px 0 0;
@@ -197,6 +188,16 @@ div.main {
     div.main div.contents.top-page div.app-ss img.iPhone-ss {
       width: 48%;
       float: right; }
+  div.main div.contents.top-page div.top-download-link {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    text-align: center; }
+    @media screen and (max-width: 640px) {
+      div.main div.contents.top-page div.top-download-link {
+        padding: 0 10vw; }
+        div.main div.contents.top-page div.top-download-link img {
+          width: 50vw; } }
   div.main div.contents.top-page div.download-link {
     width: 50%;
     margin: 20px 0;
@@ -205,7 +206,20 @@ div.main {
     font-size: 0.9em;
     line-height: 1.6em; }
   div.main div.contents.top-page section.team ul.member {
-    margin: 30px 0 0; }
+    margin: 30px 0 0;
+    list-style: none; }
+    div.main div.contents.top-page section.team ul.member li {
+      margin: 0 0 30px;
+      width: auto;
+      min-height: 200px; }
+      div.main div.contents.top-page section.team ul.member li img {
+        float: left;
+        width: 200px;
+        border-radius: 4px;
+        margin: 0 30px 10px 0; }
+      div.main div.contents.top-page section.team ul.member li p.bio {
+        margin: 15px 0;
+        font-size: 0.8em; }
   div.main div.contents.top-page section.team ul.work li {
     min-height: auto;
     list-style: none;

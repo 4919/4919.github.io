@@ -40,7 +40,9 @@ html {
   width: 100%;
   font-size: 1.1em;
   background: white;
-  font-family: "tk-tbchibirgothicplusk-pro", serif;
+  font-family: "tbchibirgothicplusk-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 a {
@@ -190,24 +192,6 @@ div.main {
             padding: 8px 0;
           }
         }
-        &.member {
-          list-style: none;
-          li {
-            margin: 0 0 30px;
-            width: auto;
-            min-height: 200px;
-            img {
-              float: left;
-              width: 200px;
-              border-radius: 4px;
-              margin: 0 30px 10px 0;
-            }
-            p.bio {
-              margin: 15px 0;
-              font-size: 0.8em;
-            }
-          }
-        }
       }
       div.content-wrap {
         display: block;
@@ -220,6 +204,9 @@ div.main {
         height: 100vh;
         margin: 0 0 30px;
         background: $brand-yellow-normal url("../img/logo_4919_top.png") center center no-repeat;
+        @media screen and (max-width: 640px)  {
+          background-size: 50% auto;
+        }
       }
       &.sub-page-top-visual {
         margin: 0 0 60px;
@@ -271,6 +258,18 @@ div.main {
           float: right;
         }
       }
+      div.top-download-link {
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+        text-align: center;
+        @media screen and (max-width: 640px)  {
+          padding: 0 10vw;
+          img {
+            width: 50vw;
+          }
+        }
+      }
       div.download-link {
         width: 50%;
         margin: 20px 0;
@@ -283,6 +282,22 @@ div.main {
         }
         ul.member {
           margin: 30px 0 0;
+          list-style: none;
+          li {
+            margin: 0 0 30px;
+            width: auto;
+            min-height: 200px;
+            img {
+              float: left;
+              width: 200px;
+              border-radius: 4px;
+              margin: 0 30px 10px 0;
+            }
+            p.bio {
+              margin: 15px 0;
+              font-size: 0.8em;
+            }
+          }
         }
         ul.work li {
           min-height: auto;
