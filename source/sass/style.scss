@@ -230,7 +230,6 @@ div.main {
           color: $brand-green-normal;
         }
       }
-
     }
     &.top-page {
       a.page-link {
@@ -272,117 +271,12 @@ div.main {
           float: right;
         }
       }
-      div.event-photos {
-        display: block;
-        height: 300px;
-        width: 100%;
-        margin: -30px 0 -40px;
-        overflow: hidden;
-        div {
-          width: 100%;
-          overflow-x: auto;
-          -webkit-overflow-scrolling: touch;
-          ul {
-            display: inline-table;
-            max-width: 100%;
-          }
-          li {
-            display: table-cell;
-            list-style: none;
-            padding: 0 10px 0 0;
-          }
-          img {
-            height: 300px;
-            width: auto;
-          }
-        }
-      }
       div.download-link {
         width: 50%;
         margin: 20px 0;
         float: right;
       }
-    }
-    &.about {
-      div.slide-container {
-        display: block;
-        max-width: 800px;
-        width: 100%;
-        margin: 50px auto;
-        iframe {
-          width: 100%;
-          @media screen and (max-width: 760px) {
-            max-width: 600px;
-            height: 500px;
-          }
-          @media screen and (min-width: 760px) {
-            max-width: 800px;
-            height: 650px;
-          }
-        }
-      }
-      div.movie-container {
-        display: block;
-        max-width: 800px;
-        width: 100%;
-        margin: 0px auto;
-        iframe {
-          width: 100%;
-          @media screen and (max-width: 760px) {
-            max-width: 600px;
-            height: 340px;
-          }
-          @media screen and (min-width: 760px) {
-            max-width: 800px;
-            height: 450px;
-          }
-        }
-      }
-    }
-
-    &.events {
-      section.event-cards {
-        display: block;
-        width: 100%;
-        max-width: 1280px;
-        margin: 0 auto;
-        div.event-card {
-          margin: 20px 0;
-          padding: 20px 30px;
-          box-shadow: 0 1px 3px 0 #ccc;
-          border-radius: 2px;
-          p.event-reference {
-            margin: 15px 0 0;
-          }
-        }
-        div.event-photo {
-          height: 200px;
-          width: 100%;
-          margin: 10px 0;
-          overflow: hidden;
-          & > div {
-            width: 100%;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-          }
-          ul {
-            display: inline-table;
-            max-width: 100%;
-          }
-          li {
-            display: table-cell;
-            list-style: none;
-            padding: 0 10px 0 0!important;
-          }
-          img {
-            height: 200px;
-            width: auto;
-          }
-        }
-      }
-    }
-    &.team {
-      section.content {
+      section.team {
         p.bio {
           font-size: 0.9em;
           line-height: 1.6em;
@@ -395,20 +289,11 @@ div.main {
           list-style: none;
           float: left;
           padding: 5px 10px;
-          margin: 0 10px 0 0;
+          margin: 0 10px 10px 0;
           color: $brand-green-normal;
           border: 1px solid $brand-green-normal;
           border-radius: 3px;
         }
-      }
-    }
-    &.download {
-      ul.requirement {
-        margin: 0 0 20px;
-      }
-      a.download-link {
-        display: block;
-        margin: 0 0 80px;
       }
     }
     &.privacy-policy {
@@ -449,7 +334,7 @@ footer.footer {
     &.footer-image{
       padding: 90px 0 0;
       background-color: white;
-      background-image: url(../img/footer_image1.png);
+      background-image: url(../img/footer_image.png);
       background-position: top center;
       background-repeat: no-repeat;
     }
@@ -486,63 +371,3 @@ footer.footer {
 }
 
 
-
-a.for-lod-challenge {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  width: 240px;
-  height: 120px;
-  background: #f4002a url("../img/lodc/lodc.png") center center no-repeat;
-  border-radius: 10px;
-  box-shadow: 0 1px 2px 0 black;
-  &:hover {
-    bottom: 39px;
-    box-shadow: 0 0 2px 0 black;
-  }
-}
-
-div.for-lod-challenge {
-  div.lodc-step {
-    padding: 40px 0;
-    h2 {
-      margin: 10px 0!important;
-    }
-    & + h1 {
-      padding: 80px 0 0;
-    }
-    ul {
-      padding: 0 0 20px;
-    }
-  }
-  p {
-    padding: 10px 0;
-  }
-  div.download-link {
-    padding: 20px 0;
-  }
-  img.right-img {
-    float: right;
-    width: 45%;
-    margin: 0 0 0 5%;
-    height: auto;
-  }
-}
-
-
-
-
-a.for-urban-data-challenge {
-  position: fixed;
-  left: 40px;
-  bottom: 40px;
-  width: 240px;
-  height: 120px;
-  background: #f4002a url("../img/udc/udc.png") center center no-repeat;
-  border-radius: 10px;
-  box-shadow: 0 1px 2px 0 black;
-  &:hover {
-    bottom: 39px;
-    box-shadow: 0 0 2px 0 black;
-  }
-}

@@ -197,110 +197,24 @@ div.main {
     div.main div.contents.top-page div.app-ss img.iPhone-ss {
       width: 48%;
       float: right; }
-  div.main div.contents.top-page div.event-photos {
-    display: block;
-    height: 300px;
-    width: 100%;
-    margin: -30px 0 -40px;
-    overflow: hidden; }
-    div.main div.contents.top-page div.event-photos div {
-      width: 100%;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch; }
-      div.main div.contents.top-page div.event-photos div ul {
-        display: inline-table;
-        max-width: 100%; }
-      div.main div.contents.top-page div.event-photos div li {
-        display: table-cell;
-        list-style: none;
-        padding: 0 10px 0 0; }
-      div.main div.contents.top-page div.event-photos div img {
-        height: 300px;
-        width: auto; }
   div.main div.contents.top-page div.download-link {
     width: 50%;
     margin: 20px 0;
     float: right; }
-  div.main div.contents.about div.slide-container {
-    display: block;
-    max-width: 800px;
-    width: 100%;
-    margin: 50px auto; }
-    div.main div.contents.about div.slide-container iframe {
-      width: 100%; }
-      @media screen and (max-width: 760px) {
-        div.main div.contents.about div.slide-container iframe {
-          max-width: 600px;
-          height: 500px; } }
-      @media screen and (min-width: 760px) {
-        div.main div.contents.about div.slide-container iframe {
-          max-width: 800px;
-          height: 650px; } }
-  div.main div.contents.about div.movie-container {
-    display: block;
-    max-width: 800px;
-    width: 100%;
-    margin: 0px auto; }
-    div.main div.contents.about div.movie-container iframe {
-      width: 100%; }
-      @media screen and (max-width: 760px) {
-        div.main div.contents.about div.movie-container iframe {
-          max-width: 600px;
-          height: 340px; } }
-      @media screen and (min-width: 760px) {
-        div.main div.contents.about div.movie-container iframe {
-          max-width: 800px;
-          height: 450px; } }
-  div.main div.contents.events section.event-cards {
-    display: block;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto; }
-    div.main div.contents.events section.event-cards div.event-card {
-      margin: 20px 0;
-      padding: 20px 30px;
-      box-shadow: 0 1px 3px 0 #ccc;
-      border-radius: 2px; }
-      div.main div.contents.events section.event-cards div.event-card p.event-reference {
-        margin: 15px 0 0; }
-    div.main div.contents.events section.event-cards div.event-photo {
-      height: 200px;
-      width: 100%;
-      margin: 10px 0;
-      overflow: hidden; }
-      div.main div.contents.events section.event-cards div.event-photo > div {
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch; }
-      div.main div.contents.events section.event-cards div.event-photo ul {
-        display: inline-table;
-        max-width: 100%; }
-      div.main div.contents.events section.event-cards div.event-photo li {
-        display: table-cell;
-        list-style: none;
-        padding: 0 10px 0 0 !important; }
-      div.main div.contents.events section.event-cards div.event-photo img {
-        height: 200px;
-        width: auto; }
-  div.main div.contents.team section.content p.bio {
+  div.main div.contents.top-page section.team p.bio {
     font-size: 0.9em;
     line-height: 1.6em; }
-  div.main div.contents.team section.content ul.member {
+  div.main div.contents.top-page section.team ul.member {
     margin: 30px 0 0; }
-  div.main div.contents.team section.content ul.work li {
+  div.main div.contents.top-page section.team ul.work li {
     min-height: auto;
     list-style: none;
     float: left;
     padding: 5px 10px;
-    margin: 0 10px 0 0;
+    margin: 0 10px 10px 0;
     color: #00A93A;
     border: 1px solid #00A93A;
     border-radius: 3px; }
-  div.main div.contents.download ul.requirement {
-    margin: 0 0 20px; }
-  div.main div.contents.download a.download-link {
-    display: block;
-    margin: 0 0 80px; }
   div.main div.contents.privacy-policy section.content h2, div.main div.contents.privacy-policy section.content h3 {
     max-width: 800px;
     margin: 40px auto 20px; }
@@ -327,7 +241,7 @@ footer.footer {
     footer.footer div.footer-image {
       padding: 90px 0 0;
       background-color: white;
-      background-image: url(../img/footer_image1.png);
+      background-image: url(../img/footer_image.png);
       background-position: top center;
       background-repeat: no-repeat; }
     footer.footer div.footer-wrap {
@@ -352,50 +266,3 @@ footer.footer {
           margin: 10px; }
       footer.footer div.footer-wrap span.gmail-domain:before {
         content: "@gmail.com"; }
-
-a.for-lod-challenge {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  width: 240px;
-  height: 120px;
-  background: #f4002a url("../img/lodc/lodc.png") center center no-repeat;
-  border-radius: 10px;
-  box-shadow: 0 1px 2px 0 black; }
-  a.for-lod-challenge:hover {
-    bottom: 39px;
-    box-shadow: 0 0 2px 0 black; }
-
-div.for-lod-challenge div.lodc-step {
-  padding: 40px 0; }
-  div.for-lod-challenge div.lodc-step h2 {
-    margin: 10px 0 !important; }
-  div.for-lod-challenge div.lodc-step + h1 {
-    padding: 80px 0 0; }
-  div.for-lod-challenge div.lodc-step ul {
-    padding: 0 0 20px; }
-
-div.for-lod-challenge p {
-  padding: 10px 0; }
-
-div.for-lod-challenge div.download-link {
-  padding: 20px 0; }
-
-div.for-lod-challenge img.right-img {
-  float: right;
-  width: 45%;
-  margin: 0 0 0 5%;
-  height: auto; }
-
-a.for-urban-data-challenge {
-  position: fixed;
-  left: 40px;
-  bottom: 40px;
-  width: 240px;
-  height: 120px;
-  background: #f4002a url("../img/udc/udc.png") center center no-repeat;
-  border-radius: 10px;
-  box-shadow: 0 1px 2px 0 black; }
-  a.for-urban-data-challenge:hover {
-    bottom: 39px;
-    box-shadow: 0 0 2px 0 black; }
