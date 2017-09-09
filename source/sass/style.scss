@@ -147,6 +147,9 @@ div.main {
   div.contents {
     section.content {
       width: 100vw;
+      @media screen and (min-width: 640px)  {
+        padding: 70px 0 0;
+      }
       h1 {
         font-size: 2em;
         line-height: 1.2em;
@@ -229,7 +232,7 @@ div.main {
       }
       &.top-visual {
         height: 100vh;
-        margin: 0 0 30px;
+        margin: 0;
         background: $brand-yellow-normal url("../img/logo_4919_top.png") center center no-repeat;
         @media screen and (max-width: 640px)  {
           background-size: 50vw auto;
@@ -448,5 +451,3 @@ footer.footer {
     }
   }
 }
-
-

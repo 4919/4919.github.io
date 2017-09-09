@@ -105,6 +105,9 @@ div.main {
   width: 100vw; }
   div.main div.contents section.content {
     width: 100vw; }
+    @media screen and (min-width: 640px) {
+      div.main div.contents section.content {
+        padding: 70px 0 0; } }
     div.main div.contents section.content h1 {
       font-size: 2em;
       line-height: 1.2em;
@@ -171,7 +174,7 @@ div.main {
           padding: 40px 20px; } }
     div.main div.contents section.content.top-visual {
       height: 100vh;
-      margin: 0 0 30px;
+      margin: 0;
       background: #FFF247 url("../img/logo_4919_top.png") center center no-repeat; }
       @media screen and (max-width: 640px) {
         div.main div.contents section.content.top-visual {
