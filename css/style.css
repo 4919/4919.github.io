@@ -228,16 +228,17 @@ div.main {
     @media screen and (max-width: 640px) {
       div.main div.contents.top-page div.top-download-link img {
         width: 50vw; } }
-  @media screen and (min-width: 640px) {
-    div.main div.contents.top-page div.download-link {
-      width: 50%;
-      margin: 20px 0;
-      float: right; } }
-  @media screen and (max-width: 640px) {
-    div.main div.contents.top-page div.download-link {
-      text-align: center; }
-      div.main div.contents.top-page div.download-link img {
-        width: 60vw; } }
+  div.main div.contents.top-page div.download-link {
+    margin: 20px 0; }
+    @media screen and (min-width: 640px) {
+      div.main div.contents.top-page div.download-link {
+        width: 50%;
+        float: right; } }
+    @media screen and (max-width: 640px) {
+      div.main div.contents.top-page div.download-link {
+        text-align: center; }
+        div.main div.contents.top-page div.download-link img {
+          width: 60vw; } }
   div.main div.contents.top-page section.team ul.member {
     margin: 30px 0 0;
     list-style: none; }
@@ -280,7 +281,8 @@ div.main {
     @media screen and (max-width: 640px) {
       div.main div.contents.top-page section.team ul.work li {
         padding: 3px 6px;
-        font-size: 0.6em; } }
+        font-size: 0.6em;
+        margin: 0 5px 5px 0; } }
   div.main div.contents.privacy-policy section.content h2, div.main div.contents.privacy-policy section.content h3 {
     max-width: 800px;
     margin: 40px auto 20px; }
@@ -332,3 +334,6 @@ footer.footer {
           margin: 10px; }
       footer.footer div.footer-wrap span.gmail-domain:before {
         content: "@gmail.com"; }
+      footer.footer div.footer-wrap img.naist-logo {
+        max-width: 90vw;
+        padding: 20px 0; }
