@@ -89,16 +89,14 @@ header.menubar {
   opacity: 0.9;
   position: fixed;
   z-index: 1000;
+  @media screen and (max-width: 640px)  {
+    height: 50px;
+  }
   div.action-wrap {
     display: block;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    img {
-      height: 60px;
-      width: auto;
-      padding-top: 10px;
-    }
     h1 {
       float: left;
       width: 100px;
@@ -109,10 +107,20 @@ header.menubar {
         display: none;
         visibility: hidden;
       }
+      @media screen and (max-width: 640px)  {
+        width: 50px;
+        height: 50px;
+        background-size: 100%;
+        margin: 0;
+      }
     }
     nav ul {
       float: right;
       margin: 0 20px 0 0;
+      @media screen and (max-width: 640px)  {
+        display: none;
+        visibility: hidden;
+      }
       li {
         height: 100px;
         float: left;
@@ -205,7 +213,8 @@ div.main {
         margin: 0 0 30px;
         background: $brand-yellow-normal url("../img/logo_4919_top.png") center center no-repeat;
         @media screen and (max-width: 640px)  {
-          background-size: 50% auto;
+          background-size: 50vw auto;
+          background-position: 25vw 30vh;
         }
       }
       &.sub-page-top-visual {
