@@ -178,6 +178,10 @@ div.main {
       p {
         padding: 20px 0 0;
         line-height: 1.8em;
+        @media screen and (max-width: 640px)  {
+          padding: 5px 0 0;
+          line-height: 1.4em;
+        }
         &.footnote {
           margin: 20px 0;
           border: 1px solid #eee;
@@ -326,6 +330,13 @@ div.main {
               margin: 0 30px 10px 0;
               @media screen and (max-width: 640px)  {
                 width: 100px;
+                margin: 0 15px 10px 0;
+              }
+            }
+            div.member-data {
+              margin-left: 230px;
+              @media screen and (max-width: 640px)  {
+                margin-left: 115px;
               }
             }
             p.bio {
