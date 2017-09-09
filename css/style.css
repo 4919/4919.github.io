@@ -83,7 +83,7 @@ header.menubar {
           height: 100px;
           line-height: 100px;
           padding: 0 30px;
-          color: white;
+          color: #008428;
           font-size: 20px;
           letter-spacing: 2px; }
           header.menubar div.action-wrap nav ul li a:hover {
