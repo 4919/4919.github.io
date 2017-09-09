@@ -119,9 +119,14 @@ div.main {
       font-size: 1.3em;
       font-weight: bold; }
     div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span {
+      display: inline-block;
       padding: 0 0 0 2ex;
       font-size: 0.7em;
       color: #666; }
+      @media screen and (max-width: 640px) {
+        div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span {
+          display: block;
+          padding: 0; } }
     div.main div.contents section.content p {
       padding: 20px 0 0;
       line-height: 1.8em; }
@@ -157,6 +162,9 @@ div.main {
       max-width: 1200px;
       padding: 60px 40px;
       margin: 0 auto; }
+      @media screen and (max-width: 640px) {
+        div.main div.contents section.content div.content-wrap {
+          padding: 40px 20px; } }
     div.main div.contents section.content.top-visual {
       height: 100vh;
       margin: 0 0 30px;

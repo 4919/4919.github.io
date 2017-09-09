@@ -165,9 +165,14 @@ div.main {
       }
       h1, h2, h3 {
         span {
+          display: inline-block;
           padding: 0 0 0 2ex;
           font-size: 0.7em;
           color: #666;
+          @media screen and (max-width: 640px)  {
+            display: block;
+            padding: 0;
+          }
         }
       }
       p {
@@ -214,6 +219,9 @@ div.main {
         max-width: 1200px;
         padding: 60px 40px;
         margin: 0 auto;
+        @media screen and (max-width: 640px)  {
+          padding: 40px 20px;
+        }
       }
       &.top-visual {
         height: 100vh;
