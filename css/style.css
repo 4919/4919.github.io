@@ -146,6 +146,11 @@ div.main {
         div.main div.contents section.content ul li ul {
           list-style: circle;
           padding: 8px 0; }
+    div.main div.contents section.content dl {
+      padding: 0 10px; }
+      div.main div.contents section.content dl dt {
+        width: 125px;
+        float: left; }
     div.main div.contents section.content div.content-wrap {
       display: block;
       width: auto;
@@ -187,6 +192,9 @@ div.main {
       border-left: 10px solid #008428; }
   div.main div.contents.top-page div.left-description {
     margin-right: 55%; }
+    @media screen and (max-width: 640px) {
+      div.main div.contents.top-page div.left-description {
+        margin: 0; } }
   div.main div.contents.top-page div.app-ss {
     float: right;
     width: 50%;
@@ -208,13 +216,16 @@ div.main {
     @media screen and (max-width: 640px) {
       div.main div.contents.top-page div.top-download-link img {
         width: 50vw; } }
-  div.main div.contents.top-page div.download-link {
-    width: 50%;
-    margin: 20px 0;
-    float: right; }
-  div.main div.contents.top-page section.team p.bio {
-    font-size: 0.9em;
-    line-height: 1.6em; }
+  @media screen and (min-width: 640px) {
+    div.main div.contents.top-page div.download-link {
+      width: 50%;
+      margin: 20px 0;
+      float: right; } }
+  @media screen and (max-width: 640px) {
+    div.main div.contents.top-page div.download-link {
+      text-align: center; }
+      div.main div.contents.top-page div.download-link img {
+        width: 60vw; } }
   div.main div.contents.top-page section.team ul.member {
     margin: 30px 0 0;
     list-style: none; }
@@ -227,9 +238,18 @@ div.main {
         width: 200px;
         border-radius: 4px;
         margin: 0 30px 10px 0; }
+        @media screen and (max-width: 640px) {
+          div.main div.contents.top-page section.team ul.member li img {
+            width: 100px; } }
       div.main div.contents.top-page section.team ul.member li p.bio {
+        font-size: 0.9em;
+        line-height: 1.6em;
         margin: 15px 0;
         font-size: 0.8em; }
+        @media screen and (max-width: 640px) {
+          div.main div.contents.top-page section.team ul.member li p.bio {
+            padding: 10px 0;
+            margin: 5px 0; } }
   div.main div.contents.top-page section.team ul.work li {
     min-height: auto;
     list-style: none;
@@ -239,6 +259,10 @@ div.main {
     color: #00A93A;
     border: 1px solid #00A93A;
     border-radius: 3px; }
+    @media screen and (max-width: 640px) {
+      div.main div.contents.top-page section.team ul.work li {
+        padding: 3px 6px;
+        font-size: 0.6em; } }
   div.main div.contents.privacy-policy section.content h2, div.main div.contents.privacy-policy section.content h3 {
     max-width: 800px;
     margin: 40px auto 20px; }
