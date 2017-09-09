@@ -214,7 +214,7 @@ div.main {
         background: $brand-yellow-normal url("../img/logo_4919_top.png") center center no-repeat;
         @media screen and (max-width: 640px)  {
           background-size: 50vw auto;
-          background-position: 25vw 30vh;
+          background-position: 25vw 25vh;
         }
       }
       &.sub-page-top-visual {
@@ -269,11 +269,12 @@ div.main {
       }
       div.top-download-link {
         position: absolute;
+        width: 80vw;
+        padding: 0 10vw;
         left: 0;
-        bottom: 20px;
+        bottom: 5vh;
         text-align: center;
         @media screen and (max-width: 640px)  {
-          padding: 0 10vw;
           img {
             width: 50vw;
           }

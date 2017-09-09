@@ -159,7 +159,7 @@ div.main {
       @media screen and (max-width: 640px) {
         div.main div.contents section.content.top-visual {
           background-size: 50vw auto;
-          background-position: 25vw 30vh; } }
+          background-position: 25vw 25vh; } }
     div.main div.contents section.content.sub-page-top-visual {
       margin: 0 0 60px;
       padding: 130px 0 0;
@@ -200,14 +200,14 @@ div.main {
       float: right; }
   div.main div.contents.top-page div.top-download-link {
     position: absolute;
+    width: 80vw;
+    padding: 0 10vw;
     left: 0;
-    bottom: 20px;
+    bottom: 5vh;
     text-align: center; }
     @media screen and (max-width: 640px) {
-      div.main div.contents.top-page div.top-download-link {
-        padding: 0 10vw; }
-        div.main div.contents.top-page div.top-download-link img {
-          width: 50vw; } }
+      div.main div.contents.top-page div.top-download-link img {
+        width: 50vw; } }
   div.main div.contents.top-page div.download-link {
     width: 50%;
     margin: 20px 0;
