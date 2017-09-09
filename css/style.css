@@ -121,7 +121,7 @@ div.main {
     div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span {
       display: inline-block;
       padding: 0 0 0 2ex;
-      font-size: 0.7em;
+      font-size: 0.6em;
       color: #666; }
       @media screen and (max-width: 640px) {
         div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span {
