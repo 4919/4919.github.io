@@ -238,8 +238,8 @@ div.main {
           background-size: 50vw auto;
         }
         @media screen and (max-height: 860px)  {
-          background-size: auto 40vh;
-          background-position: center 30vh;
+          background-size: auto 37vh;
+          background-position: center 28vh;
         }
       }
       &.sub-page-top-visual {
@@ -313,7 +313,7 @@ div.main {
         @media screen and (max-height: 860px) {
           img {
             width: auto;
-            max-width: 40vw;
+            max-width: 39vw;
             max-height: 10vh;
           }
         }
