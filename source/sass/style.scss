@@ -117,7 +117,7 @@ header.menubar {
     nav ul {
       float: right;
       margin: 0 20px 0 0;
-      @media screen and (max-width: 640px)  {
+      @media screen and (max-width: 800px)  {
         display: none;
         visibility: hidden;
       }
@@ -236,7 +236,10 @@ div.main {
         background: $brand-yellow-normal url("../img/logo_4919_top.png") center center no-repeat;
         @media screen and (max-width: 640px)  {
           background-size: 50vw auto;
-          background-position: 25vw 25vh;
+        }
+        @media screen and (max-height: 860px)  {
+          background-size: auto 40vh;
+          background-position: center 30vh;
         }
       }
       &.sub-page-top-visual {
@@ -302,9 +305,16 @@ div.main {
         left: 0;
         bottom: 5vh;
         text-align: center;
-        @media screen and (max-width: 640px)  {
+        @media screen and (min-height: 860px) and (max-width: 640px) {
           img {
             width: 50vw;
+          }
+        }
+        @media screen and (max-height: 860px) {
+          img {
+            width: auto;
+            max-width: 40vw;
+            max-height: 10vh;
           }
         }
       }
