@@ -1,7 +1,7 @@
 {
-  "name": "parmosense",
+  "name": "4919",
   "version": "1.0.0",
-  "description": "ParmoSense by NAIST-UBI",
+  "description": "4919 for Ikoma by Misekata-lab",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ubi-naist/ParmoSense.git"
+    "url": "git+https://github.com/4919/4919.github.io.git"
   },
-  "author": "NAIST UBI",
+  "author": "Misakata-lab",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ubi-naist/ParmoSense/issues"
+    "url": "https://github.com/4919/4919.github.io/issues"
   },
   "homepage": "https://github.com/ubi-naist/ParmoSense#readme",
   "devDependencies": {

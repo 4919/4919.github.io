@@ -82,7 +82,7 @@ header.menubar {
     header.menubar div.action-wrap nav ul {
       float: right;
       margin: 0 20px 0 0; }
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 1000px) {
         header.menubar div.action-wrap nav ul {
           display: none;
           visibility: hidden; } }
@@ -107,7 +107,7 @@ div.main {
     width: 100vw; }
     @media screen and (min-width: 640px) {
       div.main div.contents section.content {
-        padding: 70px 0 0; } }
+        padding: 20px 0 0; } }
     div.main div.contents section.content h1 {
       font-size: 2em;
       line-height: 1.2em;
@@ -121,6 +121,10 @@ div.main {
     div.main div.contents section.content h3 {
       font-size: 1.3em;
       font-weight: bold; }
+    div.main div.contents section.content h4 {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 5px 0 5px; }
     div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span {
       display: inline-block;
       padding: 0 0 0 2ex;
@@ -176,7 +180,7 @@ div.main {
       height: 100vh;
       margin: 0;
       background: #FFF247 url("../img/logo_4919_top.png") center center no-repeat; }
-      @media screen and (max-width: 640px) {
+      @media screen and (max-width: 710px) {
         div.main div.contents section.content.top-visual {
           background-size: 50vw auto; } }
       @media screen and (max-height: 860px) {
@@ -190,6 +194,8 @@ div.main {
       color: #008428; }
       div.main div.contents section.content.sub-page-top-visual h1 span {
         color: #00A93A; }
+    div.main div.contents section.content.news-list {
+      margin: 60px 0 60px; }
   div.main div.contents.top-page a.page-link {
     float: right;
     margin: 20px 5px;
@@ -227,6 +233,11 @@ div.main {
         width: 80vw; }
         div.main div.contents.top-page div.app-ss img {
           float: none; } }
+  div.main div.contents.top-page div.history {
+    float: none;
+    text-align: center; }
+    div.main div.contents.top-page div.history img {
+      width: 80vw; }
   div.main div.contents.top-page div.top-download-link {
     position: absolute;
     width: 80vw;
@@ -240,7 +251,7 @@ div.main {
     @media screen and (max-height: 860px) {
       div.main div.contents.top-page div.top-download-link img {
         width: auto;
-        max-width: 39vw;
+        max-width: 38vw;
         max-height: 10vh; } }
   div.main div.contents.top-page div.download-link {
     margin: 20px 0; }

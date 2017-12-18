@@ -117,7 +117,7 @@ header.menubar {
     nav ul {
       float: right;
       margin: 0 20px 0 0;
-      @media screen and (max-width: 800px)  {
+      @media screen and (max-width: 1000px)  {
         display: none;
         visibility: hidden;
       }
@@ -148,7 +148,7 @@ div.main {
     section.content {
       width: 100vw;
       @media screen and (min-width: 640px)  {
-        padding: 70px 0 0;
+        padding: 20px 0 0;
       }
       h1 {
         font-size: 2em;
@@ -165,6 +165,11 @@ div.main {
       h3 {
         font-size: 1.3em;
         font-weight: bold;
+      }
+      h4 {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 5px 0 5px;
       }
       h1, h2, h3 {
         span {
@@ -234,7 +239,7 @@ div.main {
         height: 100vh;
         margin: 0;
         background: $brand-yellow-normal url("../img/logo_4919_top.png") center center no-repeat;
-        @media screen and (max-width: 640px)  {
+        @media screen and (max-width: 710px)  {
           background-size: 50vw auto;
         }
         @media screen and (max-height: 860px)  {
@@ -250,6 +255,9 @@ div.main {
         h1 span {
           color: $brand-green-normal;
         }
+      }
+      &.news-list {
+        margin: 60px 0 60px;
       }
     }
     &.top-page {
@@ -298,6 +306,13 @@ div.main {
           }
         }
       }
+      div.history {
+        float: none;
+        text-align: center;
+        img{
+          width:80vw;
+        }
+      }
       div.top-download-link {
         position: absolute;
         width: 80vw;
@@ -313,7 +328,7 @@ div.main {
         @media screen and (max-height: 860px) {
           img {
             width: auto;
-            max-width: 39vw;
+            max-width: 38vw;
             max-height: 10vh;
           }
         }

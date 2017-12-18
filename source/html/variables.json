@@ -1,3 +1,89 @@
 {
-  
+  "newspaper":[
+    {"name":"朝日新聞",
+      "title":"給食献立アプリ配信 生駒市小中用に大学院生 食材やアレルゲン一目で",
+      "date":"2017.12.06"
+    },
+    {"name":"産経新聞",
+      "title":"給食献立で食育アプリ 「アレルギー事故防止」学生開発",
+      "date":"2017.03.16"
+    },
+    {"name":"奈良新聞",
+      "title":"未来のアプリ・アイデアコンテスト 河中さんが優秀賞 アプリ部門",
+      "date":"2017.03.14"
+    }
+
+  ],
+  "webmedia":[
+    {"name":"CivicWave",
+      "title":"シビックテックの概念に収まらないのがMashupAwardsの作品【鈴木まなみ】",
+      "url":"https://www.sbbit.jp/article/cont1/34240",
+      "date":"2017.12.15"
+    },
+    {"name":"生駒市公式ホームページ > アプリ紹介",
+      "title":"市内の学校で提供されている給食の献立を、スマホでチェックできるアプリ『4919 for Ikoma』",
+      "url":"http://www.city.ikoma.lg.jp/0000012013.html",
+      "date":"2017.12.13"
+    },
+    {"name":"ビジネス+IT",
+      "title":"シビックテックとは何か？ 5分野別の事例に見る、社会問題のITによる解決方法",
+      "url":"https://www.sbbit.jp/article/cont1/34240",
+      "date":"2017.12.08"
+    },
+    {"name":"朝新聞デジタル",
+      "title":"奈良）給食献立アプリを開発　アレルギー事故防止に一役",
+      "url":"http://www.asahi.com/articles/ASKD64RPVKD6UBQU00Q.html",
+      "date":"2017.12.06"
+    },
+    {"name":"朝新聞デジタル apital",
+      "title":"給食献立をアプリで配信　アレルゲンも一目で確認",
+      "url":"http://www.asahi.com/articles/ASKCG5728KCGPOMB00P.html",
+      "date":"2017.12.06"
+    },
+    {"name":"新・公民連携最前線 PPPまちづくり",
+      "title":"オープンデータで学校給食献立表アプリ、生駒市における市民協働",
+      "url":"http://www.nikkeibp.co.jp/atcl/tk/PPP/434167/110800043/",
+      "date":"2017.11.13"
+    },
+    {"name":"まんてんいこま",
+      "title":"給食のメニューをスマホでチェック！",
+      "url":"https://www.facebook.com/manten.ikoma/posts/1927005334228303",
+      "date":"2017.11.09"
+    },
+    {"name":"CivicWave",
+      "title":"「4919（食育） for IKOMA」が正式運用開始！【鈴木まなみ】",
+      "url":"http://www.civicwave.jp/archives/52164853.html",
+      "date":"2017.10.17"
+    },
+    {"name":"生駒市記者会見",
+      "title":"給食献立アプリ「4919(食育)for_IKOMA」を給食献立表からダウンロード",
+      "url":"http://www.city.ikoma.lg.jp/0000011334.html",
+      "date":"2017.10.16"
+    },
+    {"name":"iJAMP",
+      "title":"アプリで給食事故防止=小紫奈良県生駒市長",
+      "url":"http://www.jamp.jiji.com/info/",
+      "date":"2017.10.16"
+    },
+    {"name":"Lab-On",
+      "title":"あなたの技術が街を変える！「Civic Tech」に取り組む理系学生の挑戦",
+      "url":"https://lab-on.jp/article/74",
+      "date":"2017.10.11"
+    },
+    {"name":"CodeIQ MAGAZINE",
+      "title":"電子行政・子育て応援・公園情報・給食事故防止…地域の課題をテクノロジーで解決する活動紹介─CIVIC TECH FORUM 2017",
+      "url":"https://codeiq.jp/magazine/2017/05/51578/",
+      "date":"2017.05.18"
+    },
+    {"name":"CivicWave",
+      "title":"シビックテックのサービスや活動事例、どどーんと8連発「CIVICTECHFORUM2017」【鈴木まなみ】",
+      "url":"http://www.civicwave.jp/archives/52152825.html",
+      "date":"2017.04.12"
+    },
+    {"name":"CivicWave",
+      "title":"ITで生駒の未来をつくる挑戦！ -IKOMA Civic Tech Award 2016- 【福島健一郎】",
+      "url":"http://www.civicwave.jp/archives/52151809.html",
+      "date":"2017.03.14"
+    }
+  ]
 }
