@@ -56,9 +56,10 @@ header.menubar {
   opacity: 0.9;
   position: fixed;
   z-index: 1000; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 1000px) {
     header.menubar {
-      height: 50px; } }
+      display: none;
+      visibility: hidden; } }
   header.menubar div.action-wrap {
     display: block;
     width: 100%;
@@ -73,12 +74,10 @@ header.menubar {
       header.menubar div.action-wrap h1 span {
         display: none;
         visibility: hidden; }
-      @media screen and (max-width: 640px) {
+      @media screen and (max-width: 1000px) {
         header.menubar div.action-wrap h1 {
-          width: 50px;
-          height: 50px;
-          background-size: 100%;
-          margin: 0; } }
+          display: none;
+          visibility: hidden; } }
     header.menubar div.action-wrap nav ul {
       float: right;
       margin: 0 20px 0 0; }
