@@ -121,16 +121,16 @@ div.main {
       font-size: 1.3em;
       font-weight: bold; }
     div.main div.contents section.content h4 {
-      font-size: 1.2em;
+      font-size: 1.1em;
       font-weight: bold;
       margin: 5px 0 5px; }
-    div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span {
+    div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span, div.main div.contents section.content h4 span {
       display: inline-block;
       padding: 0 0 0 2ex;
       font-size: 0.6em;
       color: #666; }
       @media screen and (max-width: 640px) {
-        div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span {
+        div.main div.contents section.content h1 span, div.main div.contents section.content h2 span, div.main div.contents section.content h3 span, div.main div.contents section.content h4 span {
           display: block;
           padding: 0; } }
     div.main div.contents section.content p {
@@ -234,9 +234,11 @@ div.main {
           float: none; } }
   div.main div.contents.top-page div.history {
     float: none;
-    text-align: center; }
+    padding: 20px 0;
+    text-align: left; }
     div.main div.contents.top-page div.history img {
-      width: 80vw; }
+      width: 80vw;
+      max-width: 800px; }
   div.main div.contents.top-page div.top-download-link {
     position: absolute;
     width: 80vw;
