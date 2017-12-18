@@ -157,7 +157,8 @@ div.main {
       list-style: disc;
       padding: 10px 0; }
       div.main div.contents section.content ul li {
-        margin: 2px 0 2px 25px; }
+        margin: 2px 0 2px 25px;
+        font-size: 0.9em; }
         div.main div.contents section.content ul li ul {
           list-style: circle;
           padding: 8px 0; }
