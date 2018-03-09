@@ -60,6 +60,16 @@ var param = {
         <section class="content" id="news">
           <div class="content-wrap clearfix">
             <h1>News<span>ニュース</span></h1>
+            <h2>テレビ</h2>
+            <ul class="news-list" style="list-style-type: decimal">
+              <% for ( var k in tv ){ %>
+                <li>
+                  <h4> <a href="<%= tv[k].url -%>"> <%- tv[k].name %> </a> </h4>
+                  <%- tv[k].title %> <br>
+                    <%- tv[k].date %>
+                </li>
+                <% } %>
+            </ul>
             <h2>紙面掲載</h2>
             <ul class="news-list" style="list-style-type: decimal">
               <% for ( var i in newspaper ){ %>

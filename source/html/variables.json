@@ -1,4 +1,9 @@
 {
+  "tv":[
+    {"name":"奈良テレビ放送 ゆうドキッ！",
+    "title":"奈良人十色",
+    "date":"2018.2.23"}
+  ],
   "newspaper":[
     {"name":"広報いこま いこまち",
       "title":"給食の献立をスマホでチェック 4919(食育) for Ikoma",
@@ -18,6 +23,11 @@
     }
   ],
   "webmedia":[
+    {"name":"政府CIOポータル",
+      "title":"オープンデータ100 | 49. 4919（食育）for IKOMA",
+      "url":"https://cio.go.jp/opendata100",
+      "date":"2018.2.21"
+    },
     {"name":"広報いこま いこまち",
       "title":"給食の献立をスマホでチェック 4919(食育) for Ikoma",
       "url":"http://www.city.ikoma.lg.jp/cmsfiles/contents/0000004/4970/171215_all.pdf",
