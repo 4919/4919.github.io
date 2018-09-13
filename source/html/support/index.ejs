@@ -9,6 +9,7 @@ var param = {
 };
 -%>
 <%- include(param.rootPath + "template/header", {param: param}) -%>
+
 <!-- 
 <%- include(param.rootPath + 'template/lodc') -%>
  -->
@@ -26,4 +27,4 @@ var param = {
 </div>
 
 
-<%- include(param.rootPath + 'template/footer') -%>
+<%- include(param.rootPath + 'template/footer', {param: param}) -%>

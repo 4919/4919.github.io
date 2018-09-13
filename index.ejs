@@ -9,6 +9,7 @@ var param = {
 };
 -%>
   <%- include(param.rootPath + "template/header", {param: param}) -%>
+  <%- include(param.rootPath + "template/menubar", {param: param}) -%>
 
     <div class="main">
       <div class="contents top-page">
@@ -62,11 +63,11 @@ var param = {
             <h1>News<span>ニュース</span></h1>
             <h2>テレビ</h2>
             <ul class="news-list" style="list-style-type: decimal">
-              <% for ( var i in tv ){ %>
+              <% for ( var k in tv ){ %>
                 <li>
-                  <h4> <a href="<%= tv[j].url -%>"> <%- tv[j].name %> </a> </h4>
-                  <%- tv[i].title %> <br>
-                    <%- tv[i].date %>
+                  <h4> <a href="<%= tv[k].url -%>"> <%- tv[k].name %> </a> </h4>
+                  <%- tv[k].title %> <br>
+                    <%- tv[k].date %>
                 </li>
                 <% } %>
             </ul>
@@ -155,4 +156,4 @@ var param = {
       </div>
     </div>
 
-    <%- include(param.rootPath + "template/footer") -%>
+    <%- include(param.rootPath + "template/footer"/Users/shogo-ka/Dropbox/2_CivicTech/4919/4919.github.io/source/html/index.ejs) -%>

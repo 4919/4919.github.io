@@ -1,0 +1,28 @@
+<%
+var absolutePath = filename.split("source/html/")[1].replace("index.ejs","");
+var rootPath = "../".repeat([absolutePath.split("/").length -1]);
+var pageName = absolutePath.replace("/", "");
+var param = {
+  pageName: pageName == "" ? "top" : pageName,
+  absolutePath: "https://4919.github.io/" + absolutePath,
+  rootPath: rootPath == "" ? "./" : rootPath
+};
+-%>
+<%- include(param.rootPath + "template/header", {param: param}) -%>
+
+
+<div class="main">
+    <div class="contents top-page">
+        <section class="content login-top">
+            <div class="content-wrap clearfix">
+
+                    <a class="btn btn-block btn-social btn-github">
+                        <span class="fa fa-github"></span> Sign in with GitHub
+                    </a>
+
+            </div>
+        </section>
+    </div>
+</div>
+
+<%- include(param.rootPath + "template/footer", {param: param}) -%>

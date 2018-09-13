@@ -187,6 +187,17 @@ div.main {
         div.main div.contents section.content.top-visual {
           background-size: auto 37vh;
           background-position: center 28vh; } }
+    div.main div.contents section.content.login-top {
+      height: 50vh;
+      margin: 0;
+      background: white; }
+      @media screen and (max-width: 710px) {
+        div.main div.contents section.content.login-top {
+          background-size: 50vw auto; } }
+      @media screen and (max-height: 860px) {
+        div.main div.contents section.content.login-top {
+          background-size: auto 37vh;
+          background-position: center 28vh; } }
     div.main div.contents section.content.sub-page-top-visual {
       margin: 0 0 60px;
       padding: 130px 0 0;

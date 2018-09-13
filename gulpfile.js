@@ -5,6 +5,7 @@ var sass = require("gulp-sass");
 var uglify = require("gulp-uglify");
 var browser = require("browser-sync");
 var plumber = require("gulp-plumber");
+var pleeease = require('gulp-pleeease');
 
 gulp.task("server", function() {
     browser({

@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -243,6 +244,18 @@ div.main {
         height: 100vh;
         margin: 0;
         background: $brand-yellow-normal url("../img/logo_4919_top.png") center center no-repeat;
+        @media screen and (max-width: 710px)  {
+          background-size: 50vw auto;
+        }
+        @media screen and (max-height: 860px)  {
+          background-size: auto 37vh;
+          background-position: center 28vh;
+        }
+      }
+      &.login-top {
+        height: 50vh;
+        margin: 0;
+        background: white;
         @media screen and (max-width: 710px)  {
           background-size: 50vw auto;
         }
