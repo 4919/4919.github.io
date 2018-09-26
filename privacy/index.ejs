@@ -1,0 +1,62 @@
+<%
+var absolutePath = filename.split("source/html/")[1].replace("index.ejs","");
+var rootPath = "../".repeat([absolutePath.split("/").length -1]);
+var pageName = absolutePath.replace("/", "");
+var param = {
+  pageName: pageName == "" ? "top" : pageName,
+  absolutePath: "https://4919.github.io/" + absolutePath,
+  rootPath: rootPath == "" ? "./" : rootPath
+};
+-%>
+<%- include(param.rootPath + "template/header", {param: param}) -%>
+<%- include(param.rootPath + "template/menubar", {param: param}) -%>
+
+<div class="main">
+  <div class="contents privacy-policy">
+    <section class="content sub-page-top-visual">
+      <div class="content-wrap">
+        <h1>Privacy Policy<span>プライバシーポリシー</span></h1>
+      </div>
+    </section>
+    <section class="content">
+      <div class="content-wrap">
+        <h2>個人情報の第三者への公開</h2>
+        <p>
+          4919 for Ikoma（以下、当アプリ）で収集した個人情報のうち、
+          写真やコメント、センサデータ等の一部は、
+          当アプリのサービスを提供するために必要な範囲で、
+          当アプリを利用する他のユーザに公開される可能性があります。
+        </p>
+        <p>
+          また、当アプリで収集した個人情報は、
+          個人が特定できないように配慮した状態で、
+          学会などの発表や、書籍やメディアなどの情報媒体への掲載を行うために使用されることがあります。
+        </p>
+        <h2>個人情報の照会</h2>
+        <p>
+          当アプリのユーザが自身の個人情報の照会を希望する場合には、本人であることを確認の上、対応いたします。
+        </p>
+        <h2>本プライバシーポリシーの改訂</h2>
+        <p>
+          本プライバシーポリシーは随時更新することができるものとします。
+          本プライバシーポリシーに重要な変更がある場合には、当アプリ上にて掲載するとともに、
+          下記の「最終更新日」に変更がなされた日を表示します。
+        </p>
+        <h2>問い合わせ先</h2>
+        <p>
+          本プライバシーポリシーについてのお問い合わせ、または個人情報の照会については、下記までご連絡ください。
+        </p>
+        <ul>
+          <li>〒630-0192 奈良県生駒市高山町8916-5</li>
+          <li>奈良先端科学技術大学院大学 先端科学技術研究科 情報科学領域 ユビキタスコンピューティングシステム研究室</li>
+          <li><a href="http://ubi-lab.naist.jp/">http://ubi-lab.naist.jp/</a></li>
+          <li><a href="mailto:4919.org@gmail.com">4919.org<span class="at"></span>gmail.com</a></li>
+        </ul>
+        <h3>最終更新日： 2018年9月13日</h3>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+<%- include(param.rootPath + 'template/footer') -%>
