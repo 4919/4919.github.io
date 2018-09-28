@@ -418,6 +418,15 @@ div.main {
         }
       }
     }
+    &.term {
+      ol {
+        margin-left: 30px;
+        list-style: decimal;
+        ol {
+          list-style: lower-alpha;
+        }
+      }
+    }
     &.privacy-policy {
       section.content {
         h2, h3 {
