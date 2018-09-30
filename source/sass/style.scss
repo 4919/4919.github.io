@@ -445,13 +445,14 @@ div.main {
             list-style: none;
             min-height: 30px;
             line-height: 30px;
-            span.at:after {
-              content: "@";
-            }
+            
           }
         }
       }
     }
+  }
+  span.at:after {
+    content: "@";
   }
 }
 

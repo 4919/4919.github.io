@@ -340,8 +340,8 @@ div.main {
       list-style: none;
       min-height: 30px;
       line-height: 30px; }
-      div.main div.contents.privacy-policy section.content ul li span.at:after {
-        content: "@"; }
+  div.main span.at:after {
+    content: "@"; }
 
 footer.footer {
   margin: 100px 0 0;
